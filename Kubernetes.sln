@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "frontendmvc", "frontendmvc\frontendmvc.csproj", "{B14E144D-0DBD-4C28-858D-271D17FFE962}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s_code", "k8s_code", "{1816E899-B67F-4BBE-A4DD-6C0B39CAB054}"
+	ProjectSection(SolutionItems) = preProject
+		k8s_code\1.docker_cmd.txt = k8s_code\1.docker_cmd.txt
+		k8s_code\10.forntendmvc_service.yaml = k8s_code\10.forntendmvc_service.yaml
+		k8s_code\11.forntendmvc_rcv2.yaml = k8s_code\11.forntendmvc_rcv2.yaml
+		k8s_code\2.docker_cmd_anc.txt = k8s_code\2.docker_cmd_anc.txt
+		k8s_code\3.docker-compose_anc.yaml = k8s_code\3.docker-compose_anc.yaml
+		k8s_code\4.docker_cmd_sql.txt = k8s_code\4.docker_cmd_sql.txt
+		k8s_code\5.docker-compose_sql.yaml = k8s_code\5.docker-compose_sql.yaml
+		k8s_code\6.docker-compose_prd.yaml = k8s_code\6.docker-compose_prd.yaml
+		k8s_code\7.pod_cmd.txt = k8s_code\7.pod_cmd.txt
+		k8s_code\8.forntendmvc_pod.yaml = k8s_code\8.forntendmvc_pod.yaml
+		k8s_code\9.forntendmvc_rc.yml = k8s_code\9.forntendmvc_rc.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B14E144D-0DBD-4C28-858D-271D17FFE962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14E144D-0DBD-4C28-858D-271D17FFE962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14E144D-0DBD-4C28-858D-271D17FFE962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14E144D-0DBD-4C28-858D-271D17FFE962}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B68375D4-142B-4B1C-BABD-74EF77241022}
+	EndGlobalSection
+EndGlobal

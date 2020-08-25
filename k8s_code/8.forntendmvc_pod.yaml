@@ -1,0 +1,17 @@
+--- 
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: frontendmvc-pod
+  labels: 
+    app: myapp
+    version: v1
+    zone: prod
+spec: 
+  containers: 
+    - 
+      image: "makader/myapp:frontendmvc-v1"
+      name: myapp-frontendmvc
+      ports: 
+        - 
+         containerPort: 80

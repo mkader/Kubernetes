@@ -1,0 +1,6 @@
+docker tag frontendmvc makader/myapp:frontendmvc-v1
+docker push makader/myapp:frontendmvc-v1
+kubectl run frontendmvcv1 --image=makader/myapp:frontendmvc-v1 --port 80 --restart=Never    
+kubectl get pods - list the created pods and their status
+kubectl describe pod frontendmvcv1
+kubectl delete pod frontendmvcv1

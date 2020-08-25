@@ -1,0 +1,7 @@
+version: '3'
+services:
+  frontendmvc:
+     build:
+       ./frontendmvc
+     ports:
+       - 8080:80

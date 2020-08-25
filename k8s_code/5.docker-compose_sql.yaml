@@ -1,0 +1,16 @@
+version: '3'
+services:
+  frontendmvc:
+     build:
+       ./frontendmvc
+     ports:
+       - 8080:80
+     depends_on:
+       - ss2017withoutmount
+  ss2017withoutmount:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+      - 1433:1433
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Sample123!"

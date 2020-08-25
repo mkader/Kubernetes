@@ -1,0 +1,20 @@
+docker --version
+docker image ls
+docker images
+docker pull microsoft/dotnet-samples 
+docker pull microsoft/dotnet-samples:aspnetapp 
+docker run 70e25069fca7
+docker run 70e2 
+docker ps
+docker ps -a  
+docker run 575d
+docker run -p 8082:80 575d
+docker run -p 8080:80 --name anc_mvc_app 575d
+docker start anc_mvc_app
+docker stop anc_mvc_app
+docker create -p 8080:80 --name mvcapp2 d203
+docker rm anc_mvc_app
+docker rmi anc_mvc_app
+docker rm --force priceless_kepler
+docker run -d -p 8080:80 --name anc_mvc_app 575d
+docker start -i anc_mvc_app

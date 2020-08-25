@@ -1,0 +1,5 @@
+docker pull mcr.microsoft.com/mssql/server
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=SaPwd123$" -p 1433:1433 --name sss2017withoutmount -d mcr.microsoft.com/mssql/server:2017-latest
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=SaPwd123$' -e 'MSSQL_PID=Express' -p 1433:1433 --name sqlserver -d mcr.microsoft.com/mssql/server
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Sample123$" -p 1433:1433 --name ss2017withmount -v C:\Users\MK\DockerVolumes\sqlserver2017:/var/opt/mssql/data -d mcr.microsoft.com/mssql/server:2017-latest
+
