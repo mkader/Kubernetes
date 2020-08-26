@@ -1,0 +1,6 @@
+kubectl run frontendmvcv1 --image=makader/myapp:frontendmvc-v1 --port 80
+kubectl get pods
+kubectl get deployment frontendmvcv1
+kubectl delete deploymnet frontendmvcv1
+kubectl create -f deployment.yaml
+kubectl describe deployment myapp-deployment
